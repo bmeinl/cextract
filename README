@@ -1,0 +1,14 @@
+cextract - Extracts embedded covert art from ID3v2 MP3 files.
+
+Dependencies:
+    - Modern::Perl
+    - Image::ExifTool
+    - Getopt::Std
+
+Usage:
+    ./cextract.pl [-v] [-o file] song
+    -v => verbose
+    -o => output file (filetype is autodetected)
+
+Bugs:
+    Plenty, I'm sure.
